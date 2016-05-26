@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/5/26 12:37:00。
+     1>项目“D:\代码\2016年\五月\C++\链表相关的面试题\链表相关的面试题\链表相关的面试题.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\软件\vs2013\应用程序\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+     1>d:\代码\2016年\五月\c++\链表相关的面试题\链表相关的面试题\list.h(31): warning C4018: “<”: 有符号/无符号不匹配
+                 d:\代码\2016年\五月\c++\链表相关的面试题\链表相关的面试题\list.h(25): 编译类 模板 成员函数“void List<int>::Insert(std::vector<int,std::allocator<_Ty>> &)”时
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 d:\代码\2016年\五月\c++\链表相关的面试题\链表相关的面试题\test.cpp(8): 参见对正在编译的函数 模板 实例化“void List<int>::Insert(std::vector<int,std::allocator<_Ty>> &)”的引用
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 d:\代码\2016年\五月\c++\链表相关的面试题\链表相关的面试题\test.cpp(7): 参见对正在编译的类 模板 实例化“List<int>”的引用
+       Link:
+         E:\软件\vs2013\应用程序\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\代码\2016年\五月\C++\链表相关的面试题\Debug\链表相关的面试题.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\代码\2016年\五月\C++\链表相关的面试题\Debug\链表相关的面试题.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\代码\2016年\五月\C++\链表相关的面试题\Debug\链表相关的面试题.lib" /MACHINE:X86 Debug\Test.obj
+         链表相关的面试题.vcxproj -> D:\代码\2016年\五月\C++\链表相关的面试题\Debug\链表相关的面试题.exe
+     1>已完成生成项目“D:\代码\2016年\五月\C++\链表相关的面试题\链表相关的面试题\链表相关的面试题.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.27
