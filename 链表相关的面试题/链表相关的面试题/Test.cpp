@@ -3,15 +3,16 @@
 
 void Test()
 {
-	vector<int> Vector = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	vector<int> Vector = { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
 	List<int> list;
 	list.Insert(Vector);
 	list.Show();
-	list.PrintTailToHead(list._head);
-	cout <<"NULL"<< endl;
-	ListNode<int>* Node = list.Find(0);
-	list.DelNonTailNode(Node);
-	list.Show();
+	for (int i = 0; i < 20; ++i)
+	{
+		list.ReciprocalK(i) == NULL ? (cout << "链表没有 " << i << " 个节点" << endl) :
+			(cout << "倒数第 " << i << " 个节点为： " << list.ReciprocalK(i)->_value << endl);
+	}
+
 }
 
 void main()

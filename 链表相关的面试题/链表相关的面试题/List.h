@@ -63,6 +63,20 @@ public:
 	//2.删除无头节点的单链表的非尾节点
 	void DelNonTailNode(Node * pos);
 
+	//3.在非头节点前添加一个节点
+	void InsertFrontNode(Node* pos, T x);
+
+	//4.逆序单链表
+	void ReverseList();
+
+	//5.单链表的冒泡排序
+	void BubbleSortOfList();
+
+	//6.查找单链表的中间节点
+	Node* MiddleOfList();
+
+	//7.倒数第k个节点 
+	Node* ReciprocalK(int k);
 public:
 	Node* _head;
 };
