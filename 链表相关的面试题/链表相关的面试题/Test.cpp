@@ -17,5 +17,5 @@ void Test()
 
 void main()
 {
-	Test();
+	//Test();
 }

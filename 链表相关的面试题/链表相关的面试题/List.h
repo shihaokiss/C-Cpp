@@ -77,6 +77,18 @@ public:
 
 	//7.倒数第k个节点 
 	Node* ReciprocalK(int k);
+
+	//8.判断一个链表是否带环，如果带环求出环的长度以及入口点
+	Node* IsRingList();
+
+	//9.判断两个链表是否相交，如果相交求出交点(不带环)
+	Node* IsCross(const List<T>& List1, const List<T>& List2);
+
+	//10.判断两个链表是否相交，如果相交求出交点(加强版)
+	Node* IsCrossStrengthen(const List<T>& List1, const List<T>& List2);
+
+	//11.排序链表中相同的元素
+	void TheSameInTwoList(const List<T>& List1, const List<T>& List);
 public:
 	Node* _head;
 };
